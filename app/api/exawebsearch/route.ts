@@ -4,7 +4,7 @@ import Exa from "exa-js";
 
 export const maxDuration = 60;
 
-const exa = new Exa(process.env.EXA_API_KEY as string);
+const exa = new Exa(process.env.EXA_API_KEY ?? 'empty-api-key');
 
 export async function POST(req: NextRequest) {
   try {
