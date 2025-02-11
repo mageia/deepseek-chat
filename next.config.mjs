@@ -4,8 +4,8 @@ const nextConfig = {
   basePath: "",
   experimental: {
     serverActions: {
-      allowedOrigins: ["demo.exa.ai"],
-      allowedForwardedHosts: ["demo.exa.ai"],
+      allowedOrigins: ["dg-chat.zeabur.app", "chat.bitiiot.com"],
+      allowedForwardedHosts: ["dg-chat.zeabur.app", "chat.bitiiot.com"],
     },
   },
 };
